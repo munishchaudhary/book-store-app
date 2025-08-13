@@ -11,7 +11,7 @@ import (
 const (
 	MaxTitleLength  = 255
 	MaxAuthorLength = 255
-	MinYear         = 1800
+	MinYear         = 2000
 )
 
 // BookValidationError represents a validation error for book fields

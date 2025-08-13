@@ -50,12 +50,7 @@ A RESTful API for managing CRUD operations on books with Go, using Swagger for A
    go mod tidy
    ```
 
-2. **Install Swagger CLI (optional)**
-   ```bash
-   make install-swagger
-   ```
-
-3. **Set up environment variables**
+2. **Set up environment variables**
    ```bash
    export DB_HOST=localhost
    export DB_PORT=3306
@@ -67,7 +62,7 @@ A RESTful API for managing CRUD operations on books with Go, using Swagger for A
    export SVC_SCHEMES=http
    ```
 
-4. **Build and run**
+3. **Build and run**
    ```bash
    make build
    ./book-store
@@ -125,7 +120,7 @@ make all           # Clean, generate, build, and test
 
 - **Title**: Required, max 255 characters
 - **Author**: Required, max 255 characters
-- **Year**: Required, between 1800 and current year
+- **Year**: Required, between 2000 and current year
 - **ID**: Must be positive integer (for updates)
 
 ## Database Schema
